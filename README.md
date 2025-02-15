@@ -30,7 +30,7 @@ DocuChat AI is an intelligent chatbot that allows users to upload documents and 
 
 ```plaintext
 DocuChat_AI/
-│── frontend/                # Next.js Frontend
+│── Frontend/                # Next.js Frontend
 │   ├── src/
 │   │   ├── app/             # Next.js App Router
 │   │   ├── components/      # Reusable UI components
@@ -39,7 +39,7 @@ DocuChat_AI/
 │   ├── public/              # Static files
 │   ├── package.json         # Dependencies & scripts
 │
-│── backend/                 # Django Backend
+│── chatbot_project/                 # Django Backend
 │   ├── api/
 │   │   ├── views.py         # API endpoints for upload & chat
 │   │   ├── models.py        # File storage model
@@ -70,7 +70,7 @@ cd DocuChat-AI
 #### **🔹 Install Dependencies**
 Navigate to the backend folder and create a virtual environment:
 ```bash
-cd backend
+cd chatbot_project
 python3 -m venv venv
 source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 pip install -r requirements.txt
@@ -93,7 +93,7 @@ Backend is now running at **http://127.0.0.1:8000/** 🎯
 #### **🔹 Install Dependencies**
 Navigate to the frontend folder:
 ```bash
-cd ../frontend
+cd ../Frontend
 npm install
 ```
 
